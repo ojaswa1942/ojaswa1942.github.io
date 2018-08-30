@@ -2,13 +2,38 @@
 	height: 100vh;
 	overflow: auto;
 	background: #3498db;
-	font-family:Helvetica,Arial,'sans-serif';
-	font-size:115.5%;
+    font-family: 'Indie Flower', Helvetica,Arial,'sans-serif';
  	font-weight:400;
  	color: #fff;
-
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-direction: column;
 }
+
 #snow-target {
 	position: relative;
 	overflow: hidden;
+}
+.header {/*
+	margin-top: 30%;
+	margin-left: 10%;*/
+	cursor: default;
+}
+
+h1{
+	font-family: 'Indie Flower', Helvetica;
+}
+
+h2{
+	animation-delay: 1s;
+}
+
+img{
+	width: 50px;
+	height: auto;
+	vertical-align: bottom;
+	animation-delay: 2s;
+	cursor: pointer;
 }

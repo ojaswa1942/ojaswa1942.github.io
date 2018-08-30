@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ojaswa1942.github.io/",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",

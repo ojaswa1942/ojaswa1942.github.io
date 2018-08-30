@@ -1,11 +1,11 @@
-import React from 'react';
+ import React from 'react';
 import SnowStorm from 'react-snowstorm';
 
 const Snowstorm = () =>{
 	return(
 			<div>
 				<SnowStorm 
-					vMaxY='1' 
+					vMaxY='2.5' 
 					vMaxX='1'
 					flakesMaxActive='50'
 					flakesMax='90' 
