@@ -1,0 +1,14 @@
+.container {
+	height: 100vh;
+	overflow: auto;
+	background: #3498db;
+	font-family:Helvetica,Arial,'sans-serif';
+	font-size:115.5%;
+ 	font-weight:400;
+ 	color: #fff;
+
+}
+#snow-target {
+	position: relative;
+	overflow: hidden;
+}
