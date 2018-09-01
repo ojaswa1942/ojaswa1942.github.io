@@ -1,4 +1,4 @@
-.container {
+.container2 {
 	height: 100vh;
 	overflow: auto;
 	background: #3498db;
@@ -16,7 +16,7 @@
 	position: relative;
 	overflow: hidden;
 }
-.header {/*
+.header2 {/*
 	margin-top: 30%;
 	margin-left: 10%;*/
 	cursor: default;
@@ -36,4 +36,7 @@ img{
 	vertical-align: bottom;
 	animation-delay: 2s;
 	cursor: pointer;
+}
+#Welcome {
+	z-index: -100;
 }
