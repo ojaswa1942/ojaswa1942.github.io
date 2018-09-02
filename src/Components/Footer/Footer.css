@@ -1,0 +1,6 @@
+ #contactMe {
+	height: 30vh;
+	overflow: auto;
+	transform: skewY(7deg);
+	background: rgba(53,47,47,1);
+}

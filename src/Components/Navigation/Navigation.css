@@ -3,7 +3,7 @@
 	z-index: 1;
 	top:-200px;
 	/*transition: top .4s;*/
-	background: rgba(0,31,63,0.9);
+	background: rgba(53,47,47,0.9);
 }
 a{
 	cursor: pointer;

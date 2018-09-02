@@ -1,0 +1,6 @@
+ #projectsSection {
+	height: 90vh;
+	overflow: auto;
+	transform: skewY(-7deg);
+	background: #123456;
+}

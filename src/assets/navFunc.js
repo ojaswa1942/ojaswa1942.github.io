@@ -2,8 +2,43 @@ export const navFunctions = () =>{
 	goToAboutMe();
 	goToHome();
 	displayNavBarOnScroll();
+	goToSkills();
+	goToProjects();
+	goToFooter();
 }
-
+export const goToFooter = () => {
+	const footerSection = document.getElementById("contactMe");
+	const navContact = document.getElementById("navContact");
+	const goToFooterSection = () => {
+		footerSection.scrollIntoView({
+			behavior: "smooth",
+			block: "center"
+		})
+	}
+	navContact.addEventListener("click", goToFooterSection);
+}
+export const goToProjects = () => {
+	const projectsSection = document.getElementById("projectsSection");
+	const navProjects = document.getElementById("navProjects");
+	const goToProjectsSection = () => {
+		projectsSection.scrollIntoView({
+			behavior: "smooth",
+			block: "center"
+		})
+	}
+	navProjects.addEventListener("click", goToProjectsSection);
+}
+export const goToSkills = () => {
+	const skillsSection = document.getElementById("skillsSection");
+	const navSkills = document.getElementById("navSkills");
+	const goToSkillsSection = () => {
+		skillsSection.scrollIntoView({
+			behavior: "smooth",
+			block: "center"
+		})
+	}
+	navSkills.addEventListener("click", goToSkillsSection);
+}
 export const goToAboutMe = () => {
 	const arrow = document.getElementById("goDown");
 	const aboutMeSection = document.getElementById("aboutMe");

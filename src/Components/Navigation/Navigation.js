@@ -17,8 +17,8 @@ const Navigation = () =>{
 			  <div className="w-100 w-75-l db dtc-l v-mid tc tr-l" id="entries">
 			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-l" id="navHome" title="Home"><img src={Home} alt="" />Home&nbsp;</a>
 			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-l" id="navAboutMe" title="About"><img src={User} alt="" />About&nbsp;</a>
+			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-l" id="navSkills" title="Skills"><img src={Code} alt="" />&nbsp;Skills&nbsp;</a>
 			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-l" id="navProjects" title="Projects"><img src={Monitor} alt="" />Projects</a>		
-			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-l" id="navSkills" title="Skills"><img src={Code} alt="" />Skills&nbsp;&nbsp;</a>
 			    <a className="w-20 ph3 w-auto-ns link dim dark-gray f6 f5-l dib mr3-ns mr4-1" id="navContact" title="Contact"><img src={Phone} alt="" />Contact</a>
 			  </div>
 			</nav>

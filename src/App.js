@@ -4,6 +4,9 @@ import './App.css';
 import Welcome from './Components/Welcome/Welcome'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Navigation from './Components/Navigation/Navigation'
+import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 import {navFunctions} from './assets/navFunc'
 
 class App extends Component {
@@ -16,8 +19,9 @@ class App extends Component {
 		  	<Navigation />
 		    <Welcome />
 		    <AboutMe />
-		    <AboutMe />
-
+		    <Skills />
+		    <Projects />
+		    <Footer />
 		  </div>
 		);
 	}
