@@ -10,6 +10,7 @@ const Snowstorm = () =>{
 					flakesMaxActive='50'
 					flakesMax='90' 
 					targetElement='snow-target'
+					excludeMobile='false'
 				/>
 			</div>
 		);

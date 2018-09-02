@@ -5,7 +5,7 @@ import Arrow from '../../assets/pictures/arrow-down-1.gif'
 
 const Welcome = () =>{
 	return(
-		<div id="Welcome">
+		<div id="welcome">
 			<Snowstorm />
 			<div className='container2' id="snow-target">
 				<div className='header2'>

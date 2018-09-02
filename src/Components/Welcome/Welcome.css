@@ -37,6 +37,6 @@ img{
 	animation-delay: 2s;
 	cursor: pointer;
 }
-#Welcome {
-	z-index: -100;
+#welcome {
+	z-index: -1;
 }

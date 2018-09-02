@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './assets/pictures/name-white.png';
+// import logo from './assets/pictures/name-white.png';
 import Welcome from './Components/Welcome/Welcome'
 import AboutMe from './Components/AboutMe/AboutMe'
 import Navigation from './Components/Navigation/Navigation'
@@ -16,6 +16,8 @@ class App extends Component {
 		  	<Navigation />
 		    <Welcome />
 		    <AboutMe />
+		    <AboutMe />
+
 		  </div>
 		);
 	}

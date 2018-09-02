@@ -1,6 +1,18 @@
-navigation {
-	z-index: 1000;
+#navBar {
+	position: fixed;
+	z-index: 1;
+	top:-200px;
+	/*transition: top .4s;*/
+	background: rgba(0,31,63,0.9);
 }
 a{
 	cursor: pointer;
+}
+#entries > a {
+	color: white;
+}
+#entries > a > img {
+	width:20px;
+	height: auto;
+	filter: invert(100%);
 }
