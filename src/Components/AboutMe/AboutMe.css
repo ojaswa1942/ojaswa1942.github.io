@@ -1,6 +1,33 @@
  .about {
-	height: 90vh;
+	height: 120vh;
 	overflow: auto;
-	background: #abcdef;
+	background: #ff5555;
 	/*background-color: rgba(0,0,0,0);*/
+	margin-bottom: -25vh;
+	color: #f4e3d7
+}
+
+#resAbout{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+#avatar{
+	cursor: default;
+	float: left;
+	transition: .5s;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	align-items: center;
+
+}
+#avatar:hover {
+	transform: scale(1.06);
+}
+
+@media screen and (max-width: 800px){
+	#resAbout{
+		flex-direction: column;
+	}
 }

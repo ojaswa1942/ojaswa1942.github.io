@@ -1,6 +1,20 @@
- #contactMe {
-	height: 30vh;
-	overflow: auto;
+
+#footer {
+}
+
+#contactMe {
+	height: 40vh;
+	overflow: visible;
 	transform: skewY(7deg);
 	background: rgba(53,47,47,1);
+
 }
+
+#contactMe-container {
+	transform: skewY(-7deg);
+}
+
+#rectify{
+	background: rgba(53,47,47,1);
+}
+

@@ -2,5 +2,9 @@
 	height: 90vh;
 	overflow: auto;
 	transform: skewY(7deg);
-	background: #9DE0AD;
+	background: #123456;
+}
+
+#skillsSection-container {
+	transform: skewY(-7deg);
 }

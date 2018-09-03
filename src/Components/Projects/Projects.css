@@ -2,5 +2,9 @@
 	height: 90vh;
 	overflow: auto;
 	transform: skewY(-7deg);
-	background: #123456;
+	background: #9DE0AD;
+}
+
+#projectsSection-container {
+	transform: skewY(7deg);
 }
