@@ -12,7 +12,7 @@ export const goToFooter = () => {
 	const goToFooterSection = () => {
 		footerSection.scrollIntoView({
 			behavior: "smooth",
-			block: "center"
+			block: "start"
 		})
 	}
 	navContact.addEventListener("click", goToFooterSection);
@@ -23,7 +23,7 @@ export const goToProjects = () => {
 	const goToProjectsSection = () => {
 		projectsSection.scrollIntoView({
 			behavior: "smooth",
-			block: "center"
+			block: "start"
 		})
 	}
 	navProjects.addEventListener("click", goToProjectsSection);
@@ -34,7 +34,7 @@ export const goToSkills = () => {
 	const goToSkillsSection = () => {
 		skillsSection.scrollIntoView({
 			behavior: "smooth",
-			block: "center"
+			block: "start"
 		})
 	}
 	navSkills.addEventListener("click", goToSkillsSection);
