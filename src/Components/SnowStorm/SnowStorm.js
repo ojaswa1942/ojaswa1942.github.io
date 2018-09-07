@@ -5,9 +5,9 @@ const Snowstorm = () =>{
 	return(
 			<div>
 				<SnowStorm 
-					vMaxY='2.5' 
+					vMaxY='2.8' 
 					vMaxX='1'
-					flakesMaxActive='50'
+					flakesMaxActive='80'
 					flakesMax='90' 
 					targetElement='snow-target'
 					excludeMobile='false'

@@ -7,4 +7,19 @@
 
 #skillsSection-container {
 	transform: skewY(-7deg);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+}
+
+#skillsDiv2{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+@media screen and (max-width: 800px){
+	#skillsSection-container{
+		flex-direction: column-reverse;
+	}
 }

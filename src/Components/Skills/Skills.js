@@ -1,14 +1,18 @@
 import React from 'react';
 import './Skills.css'
-import NamePng from '../../assets/pictures/name-black.png'
 
 const Skills = () =>{
 	return(
 		<div className='about pt5' id='skillsSection'>
 			<div className="" id='skillsSection-container'>
-				<h1 className="animated bounce"> Hello </h1>
-			    <img src={NamePng} className="w-30" alt="Ojaswa" />
-			    <br />
+
+				<div className="" id='skillsDiv2'>
+					Hola<br />
+					Hola<br />
+				</div>
+
+				<h1 className="f1 animated fadeIn">Skills</h1>
+				
 			</div>
 		</div>
 		);
