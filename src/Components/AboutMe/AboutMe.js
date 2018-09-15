@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutMe.css'
-import NamePng from '../../assets/pictures/name-black.png'
 import Avatar from '../../assets/pictures/md_avatar_wizard.png'
 
 const AboutMe = () =>{

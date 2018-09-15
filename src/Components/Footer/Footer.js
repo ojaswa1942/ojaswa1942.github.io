@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css'
-import NamePng from '../../assets/pictures/name-black.png'
 
 const Footer = () =>{
 	return(

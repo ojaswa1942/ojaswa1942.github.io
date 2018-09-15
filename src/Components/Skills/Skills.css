@@ -3,19 +3,30 @@
 	overflow: auto;
 	transform: skewY(7deg);
 	background: #123456;
+	-webkit-transform-origin: 50%  53%;
 }
 
 #skillsSection-container {
 	transform: skewY(-7deg);
 	display: flex;
 	justify-content: space-around;
-	align-items: center;	
+	align-items: center;
+	-webkit-transform-origin: 50%  53%;	
 }
 
 #skillsDiv2{
 	display: flex;
 	justify-content: center;
 	align-items: center;	
+}
+
+.skill-icons{
+	width: 5rem;
+	cursor: default;
+}
+
+.small{
+	transform: scale(1.2);
 }
 
 @media screen and (max-width: 800px){
