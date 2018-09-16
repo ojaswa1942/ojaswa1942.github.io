@@ -12,7 +12,7 @@ import docker from '../../assets/skills/docker.svg'
 import ec2 from '../../assets/skills/ec2.svg'
 import expressjs from '../../assets/skills/expressjs.png'
 import git from '../../assets/skills/git.png'
-import heroku from '../../assets/skills/heroku.svg'
+import heroku from '../../assets/skills/heroku.png'
 import html5 from '../../assets/skills/html5.svg'
 import java from '../../assets/skills/java.svg'
 import js from '../../assets/skills/js.svg'
@@ -32,9 +32,13 @@ const Skills = () =>{
 	return(
 		<div className='about pt5' id='skillsSection'>
 			<br />
-			<div className="" id='skillsSection-container'>
+			<div className='linebreak' />
 
+			<div className="" id='skillsSection-container'>
+				
 				<div className="w-100 w-two-thirds-ns pa2" id='skillsDiv2'>
+					<div className='linebreak' />
+
 					<img src={html5} className='skill-icons pa3' alt='HTML5' title='HTML5' />
 					<img src={css3} className='skill-icons pa3' alt='CSS3' title='CSS3' />
 					<img src={js} className='skill-icons pa3' alt='JS' title='JavaScript' />
@@ -42,12 +46,12 @@ const Skills = () =>{
 					<img src={npm} className='skill-icons pa3 small' alt='NPM' title='NPM' />
 					<img src={react} className='skill-icons pa3 small' alt='React' title='React' />
 					<img src={redux} className='skill-icons pa3' alt='Redux' title='Redux' />
-					<img src={nodejs} className='skill-icons pa3 small2' alt='NodeJS' title='NodeJS' />
-					<img src={expressjs} className='skill-icons pl4 pa3 small3' alt='ExpressJS' title='ExpressJS' />
-					<img src={mysql} className='skill-icons pa3 small' alt='MySQL' title='MySQL' />
-					<img src={postgresql} className='skill-icons pa3 small' alt='PostgreSQL' title='PostgreSQL' />
-					<img src={docker} className='skill-icons ph4 pa3 small3' alt='Docker' title='Docker' />
-					<img src={heroku} className='skill-icons pl4 pa3' alt='Heroku' title='Heroku' />
+					<img src={nodejs} className='skill-icons ph4 pa3 small2' alt='NodeJS' title='NodeJS' />
+					<img src={expressjs} className='skill-icons ph4 pa3 small3 invert' alt='ExpressJS' title='ExpressJS' />
+					<img src={mysql} className='skill-icons pa3' alt='MySQL' title='MySQL' />
+					<img src={postgresql} className='skill-icons pa3 ph4 Ssmall' alt='PostgreSQL' title='PostgreSQL' />
+					<img src={docker} className='skill-icons ph3 pa3 small3' alt='Docker' title='Docker' />
+					<img src={heroku} className='skill-icons pl4 pa3 small' alt='Heroku' title='Heroku' />
 					<img src={aws} className='skill-icons pa3 small' alt='AWS' title='AWS' />
 
 					<div className='linebreak' />

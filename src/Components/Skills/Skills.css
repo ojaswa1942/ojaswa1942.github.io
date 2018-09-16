@@ -12,6 +12,8 @@
 	justify-content: center;
 	align-items: center;
 	-webkit-transform-origin: 50%  53%;	
+	filter: contrast(1.4);
+	cursor: default;
 }
 
 #skillsDiv2{
@@ -25,8 +27,13 @@
 .skill-icons{
 	min-width: 4rem;
 	cursor: default;
-	filter: saturate(1.5);
+	filter: saturate(1.2);
+	transition: .5s;	
 }
+.skill-icons:hover{
+	transform: scale(0.9);
+}
+
 .linebreak{
 	width: 100%;
 }
