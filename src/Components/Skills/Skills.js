@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css'
 import arch from '../../assets/skills/arch.png'
 import aws from '../../assets/skills/aws.svg'
+import bash from '../../assets/skills/bash.svg'
 import bootstrap from '../../assets/skills/bootstrap.png'
 import c from '../../assets/skills/c.svg'
 import cpp from '../../assets/skills/cpp.png'
@@ -24,23 +25,54 @@ import postgresql from '../../assets/skills/postgresql.svg'
 import python from '../../assets/skills/python.svg'
 import react from '../../assets/skills/react.svg'
 import redux from '../../assets/skills/redux.png'
+import terminal from '../../assets/skills/terminal.png'
+import windows from '../../assets/skills/windows.png'
 
 const Skills = () =>{
 	return(
 		<div className='about pt5' id='skillsSection'>
+			<br />
 			<div className="" id='skillsSection-container'>
 
-				<div className="" id='skillsDiv2'>
-					<img src={html5} className='skill-icons pa2' />
-					<img src={css3} className='skill-icons pa2 small' />
-					<img src={js} className='skill-icons pa2' />
-					<img src={bootstrap} className='skill-icons pa2 small' />
-					<img src={npm} className='skill-icons pa2' />
-					<img src={nodejs} className='skill-icons pa2' />
-					Hola<br />
+				<div className="w-100 w-two-thirds-ns pa2" id='skillsDiv2'>
+					<img src={html5} className='skill-icons pa3' alt='HTML5' title='HTML5' />
+					<img src={css3} className='skill-icons pa3' alt='CSS3' title='CSS3' />
+					<img src={js} className='skill-icons pa3' alt='JS' title='JavaScript' />
+					<img src={bootstrap} className='skill-icons pa3 small' alt='Bootstrap' title='Bootstrap' />
+					<img src={npm} className='skill-icons pa3 small' alt='NPM' title='NPM' />
+					<img src={react} className='skill-icons pa3 small' alt='React' title='React' />
+					<img src={redux} className='skill-icons pa3' alt='Redux' title='Redux' />
+					<img src={nodejs} className='skill-icons pa3 small2' alt='NodeJS' title='NodeJS' />
+					<img src={expressjs} className='skill-icons pl4 pa3 small3' alt='ExpressJS' title='ExpressJS' />
+					<img src={mysql} className='skill-icons pa3 small' alt='MySQL' title='MySQL' />
+					<img src={postgresql} className='skill-icons pa3 small' alt='PostgreSQL' title='PostgreSQL' />
+					<img src={docker} className='skill-icons ph4 pa3 small3' alt='Docker' title='Docker' />
+					<img src={heroku} className='skill-icons pl4 pa3' alt='Heroku' title='Heroku' />
+					<img src={aws} className='skill-icons pa3 small' alt='AWS' title='AWS' />
+
+					<div className='linebreak' />
+	
+					<img src={c} className='skill-icons pa3 small' alt='C' title='C' />
+					<img src={cpp} className='skill-icons pa3' alt='C++' title='C++' />
+					<img src={bash} className='skill-icons pa3 small' alt='Bash' title='Bash Scripting' />
+					<img src={python} className='skill-icons pa3' alt='Python' title='Python' />
+					<img src={java} className='skill-icons pa3' alt='Java' title='Java' />
+					<img src={octave} className='skill-icons pa3' alt='Octave' title='Octave' />
+					<img src={git} className='skill-icons pa3' alt='Git' title='Git' />
+					<img src={netbeans} className='skill-icons pa3' alt='Netbeans IDE' title='Netbeans IDE' />
+
+					<div className='linebreak' />
+
+					
+					<img src={arch} className='skill-icons pa3' alt='Arch Linux' title='Arch Linux' />
+					<img src={debian} className='skill-icons pa3' alt='Debian Linux' title='Debian Linux' />
+					<img src={ec2} className='skill-icons pa3' alt='Amazon EC2' title='Amazon EC2' />
+					<img src={terminal} className='skill-icons pa3' alt='Terminal' title='Terminal' />
+					<img src={windows} className='skill-icons pa3' alt='Windows' title='Windows' />				
+
 				</div>
 
-				<h1 className="f1 animated fadeIn">Skills</h1>
+				<h1 className="f1 animated fadeIn w-100 w-third-ns ph3">Skills</h1>
 				
 			</div>
 		</div>

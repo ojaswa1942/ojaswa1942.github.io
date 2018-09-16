@@ -1,5 +1,5 @@
 #skillsSection {
-	height: 90vh;
+	height: 110vh;
 	overflow: auto;
 	transform: skewY(7deg);
 	background: #123456;
@@ -9,7 +9,7 @@
 #skillsSection-container {
 	transform: skewY(-7deg);
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	-webkit-transform-origin: 50%  53%;	
 }
@@ -18,19 +18,46 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;	
+	flex-wrap: wrap;
+	overflow-x: hidden;
 }
 
 .skill-icons{
-	width: 5rem;
+	min-width: 4rem;
 	cursor: default;
+	filter: saturate(1.5);
+}
+.linebreak{
+	width: 100%;
+}
+.small{
+	transform: scale(1.25);
+}
+.small2{
+	transform: scale(1.5);
+}
+.small3{
+	transform: scale(2);
 }
 
-.small{
-	transform: scale(1.2);
+.invert{
+	filter: invert(100%);
 }
 
 @media screen and (max-width: 800px){
+	#skillsSection{
+		height: 153vh;
+	}
 	#skillsSection-container{
 		flex-direction: column-reverse;
+	}
+	.linebreak{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#skillsSection{
+		height: 227vh;
 	}
 }
