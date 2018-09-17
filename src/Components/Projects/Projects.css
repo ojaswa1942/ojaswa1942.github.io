@@ -1,5 +1,5 @@
  #projectsSection {
-	height: 90vh;
+	height: 110vh;
 	overflow: auto;
 	transform: skewY(-7deg);
 	background: #9DE0AD;
@@ -14,15 +14,23 @@
 	-webkit-transform-origin: 50%  53%;	
 	filter: saturate(1.2);
 }
-
+#projectsSection-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 .projectHead{
 	cursor: default;
 }
 .projectPic{
 	cursor: default;
+	width: 320px;
+	filter: contrast(0.67);
+	filter: saturate(0.83);
 }
 .card{
-	width: 300px ;
+	width: 350px ;
 }
 
 @media screen and (max-width: 800px){
