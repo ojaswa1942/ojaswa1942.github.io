@@ -3,8 +3,36 @@
 	overflow: auto;
 	transform: skewY(-7deg);
 	background: #9DE0AD;
+	-webkit-transform-origin: 50%  53%;	
+		filter: contrast(1.5);
+
+
 }
 
 #projectsSection-container {
 	transform: skewY(7deg);
+	-webkit-transform-origin: 50%  53%;	
+	filter: saturate(1.2);
+}
+
+.projectHead{
+	cursor: default;
+}
+.projectPic{
+	cursor: default;
+}
+.card{
+	width: 300px ;
+}
+
+@media screen and (max-width: 800px){
+	#projectsSection{
+		/*height: 153vh;*/
+	}
+}
+
+@media screen and (max-width: 500px){
+	#projectsSection{
+		/*height: 227vh;*/
+	}
 }
