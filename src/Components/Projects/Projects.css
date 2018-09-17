@@ -13,6 +13,7 @@
 	transform: skewY(7deg);
 	-webkit-transform-origin: 50%  53%;	
 	filter: saturate(1.2);
+	font-size: 1.1rem;
 }
 #projectsSection-cards{
 	display: flex;

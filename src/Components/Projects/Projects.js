@@ -2,6 +2,11 @@ import React from 'react';
 import './Projects.css'
 import p1 from '../../assets/projects/p1.png'
 import p2 from '../../assets/projects/p2.png'
+import p3 from '../../assets/projects/p3.png'
+import p4 from '../../assets/projects/p4.png'
+import p5 from '../../assets/projects/p5.png'
+import p6 from '../../assets/projects/p6.png'
+import p7 from '../../assets/projects/p7.png'
 
 const Projects = () =>{
 	return(
@@ -11,7 +16,7 @@ const Projects = () =>{
 					Projects 
 				</h1>
 
-					<div className="" id='projectsSection-cards'>
+					<div className="mh2" id='projectsSection-cards'>
 						
 						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
 							<img  alt='Project' src ={p1} className='projectPic'/>
@@ -41,6 +46,62 @@ const Projects = () =>{
 							</div>
 						</div>
 
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p3} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://ojaswa1942.github.io/Snake-Game' className='link underline white dim'>
+										Snake Game
+									</a>
+								</h2>
+								<p>
+									A self-made version of the classic snake game, created using Vanilla JavaScript, CSS and HTML.
+									The server has been created using NODE + ExpressJS, integrated with database using PostgreSQL, hosted on Heroku.
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p4} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://ojaswa1942.github.io/startup-landing-page/' className='link underline white dim'>
+										StartX Landing Page
+									</a>
+								</h2>
+								<p>
+									Designed a sample template for a landing page of a startup, namely StartX, made using HTML, CSS and Bootstrap. It has a subscription form made using Mailchimp API.
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p5} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://ojaswa1942.github.io/background-generator/' className='link underline white dim'>
+										Background Generator
+									</a>
+								</h2>
+								<p>
+									Choosing a right gradient has always been a headache and this gradient background generator simplifies the process. It generates live gradient from chosen colors and displays its CSS code for usage. 
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p7} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='http://thehaze.atwebpages.com/index.php' className='link underline white dim'>
+										The Haze
+									</a>
+								</h2>
+								<p>
+									TheHaze is a full-stack classified web application intended for students of ABV-IIITM, Gwalior to facilitate trade among peers. It allow users to post and view advertisments. The website has been designed using HTML, CSS, Bootstrap, JS and PHP.
+								</p>
+							</div>
+						</div>
 
 					</div>
 			</div>
