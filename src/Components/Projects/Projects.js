@@ -7,6 +7,7 @@ import p4 from '../../assets/projects/p4.png'
 import p5 from '../../assets/projects/p5.png'
 import p6 from '../../assets/projects/p6.png'
 import p7 from '../../assets/projects/p7.png'
+import p8 from '../../assets/projects/p8.png'
 
 const Projects = () =>{
 	return(
@@ -99,6 +100,34 @@ const Projects = () =>{
 								</h2>
 								<p>
 									TheHaze is a full-stack classified web application intended for students of ABV-IIITM, Gwalior to facilitate trade among peers. It allow users to post and view advertisments. The website has been designed using HTML, CSS, Bootstrap, JS and PHP.
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p6} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='http://ojaswa1942.github.io/Dancing-Droid' className='link underline white dim'>
+										Dancing Droid
+									</a>
+								</h2>
+								<p>
+									Dancing-droid depicts CSS properties such keyframes, animations, transitions and flex. It also involves styling and scaling of elements to provide them the required shape. Try out the ultimate dance.
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p8} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='http://ojaswa1942.github.io/' className='link underline white dim'>
+										Personal Website
+									</a>
+								</h2>
+								<p>
+									This is my personal website made from scratch using ReactJS. It intends to showcase information about me.
 								</p>
 							</div>
 						</div>

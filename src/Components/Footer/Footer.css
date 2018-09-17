@@ -3,15 +3,16 @@
 }
 
 #contactMe {
-	height: 40vh;
-	overflow: visible;
-	transform: skewY(7deg);
+	padding-top: 25vh;
+	height: 60vh;
+/*	overflow: visible;
+*/	/*transform: skewY(7deg);*/
 	background: rgba(53,47,47,1);
 
 }
 
 #contactMe-container {
-	transform: skewY(-7deg);
+	/*transform: skewY(-7deg);*/
 }
 
 #rectify{

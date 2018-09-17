@@ -18,10 +18,12 @@ export const goToFooter = () => {
 	navContact.addEventListener("click", goToFooterSection);
 }
 export const goToProjects = () => {
-	const projectsSection = document.getElementById("projectsSection");
+	// const projectsSection = document.getElementById("projectsSection");
+	const projectsSectionContainer = document.getElementById("projectsSection-container");
 	const navProjects = document.getElementById("navProjects");
 	const goToProjectsSection = () => {
-		projectsSection.scrollIntoView({
+		// projectsSectionContainer.scrollTop=0;
+		projectsSectionContainer.scrollIntoView({
 			behavior: "smooth",
 			block: "start"
 		})

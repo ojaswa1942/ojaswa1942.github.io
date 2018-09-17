@@ -1,12 +1,10 @@
  #projectsSection {
-	height: 110vh;
+	height: 160vh;
 	overflow: auto;
 	transform: skewY(-7deg);
 	background: #9DE0AD;
 	-webkit-transform-origin: 50%  53%;	
-		filter: contrast(1.5);
-
-
+	filter: contrast(1.5);
 }
 
 #projectsSection-container {
@@ -20,6 +18,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	color: white;
 }
 .projectHead{
 	cursor: default;
@@ -34,14 +33,26 @@
 	width: 350px ;
 }
 
+/*@media screen and (max-width: 1565px){
+	#projectsSection{
+		height: 200vh;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	#projectsSection{
+		height: 260vh;
+	}
+}
+
 @media screen and (max-width: 800px){
 	#projectsSection{
-		/*height: 153vh;*/
+		height: 410vh;
 	}
 }
 
 @media screen and (max-width: 500px){
 	#projectsSection{
-		/*height: 227vh;*/
+		height: 650vh;
 	}
-}
+}*/
