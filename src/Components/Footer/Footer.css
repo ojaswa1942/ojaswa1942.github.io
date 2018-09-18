@@ -5,8 +5,8 @@
 	cursor: default;
 }
 #contactMe {
-	/*padding-top: 25vh;*/
-	height: 34vh;
+	margin-top: 25vh;
+	height: 16.5vh;
 	overflow: hidden;
 	/*transform: skewY(7deg);*/
 	background: rgba(53,47,47,1);
@@ -34,15 +34,13 @@
 	width: 100%;
 }
 #centerfoot{
-/*	display: flex;
-	align-items: center;
-	justify-content: center;*/
+
 }
 span{
 	display: none;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1020px){
 	#contactMe{
-		/*height: 227vh;*/
+		height: 20vh;
 	}
 }
