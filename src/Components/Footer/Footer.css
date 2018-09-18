@@ -1,21 +1,48 @@
 
 #footer {
 }
-
+#contact-head{
+	cursor: default;
+}
 #contactMe {
-	padding-top: 25vh;
-	height: 60vh;
-/*	overflow: visible;
-*/	/*transform: skewY(7deg);*/
+	/*padding-top: 25vh;*/
+	height: 34vh;
+	overflow: hidden;
+	/*transform: skewY(7deg);*/
 	background: rgba(53,47,47,1);
 
 }
 
 #contactMe-container {
 	/*transform: skewY(-7deg);*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	align-content: center;
+	vertical-align: middle;
 }
 
 #rectify{
 	background: rgba(53,47,47,1);
 }
 
+#mail, #phone{
+	fill: #aeacac;
+}
+.linebreak{
+	width: 100%;
+}
+#centerfoot{
+/*	display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+span{
+	display: none;
+}
+@media screen and (max-width: 500px){
+	#contactMe{
+		/*height: 227vh;*/
+	}
+}
