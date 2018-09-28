@@ -19,6 +19,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	color: white;
+	filter: contrast(0.67);
+	filter: saturate(0.83); 
 }
 .projectHead{
 	cursor: default;
@@ -26,8 +28,7 @@
 .projectPic{
 	cursor: default;
 	width: 320px;
-	filter: contrast(0.67);
-	filter: saturate(0.83);
+
 }
 .card{
 	width: 350px;

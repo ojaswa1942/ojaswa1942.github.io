@@ -8,6 +8,7 @@ import p5 from '../../assets/projects/p5.png'
 import p6 from '../../assets/projects/p6.png'
 import p7 from '../../assets/projects/p7.png'
 import p8 from '../../assets/projects/p8.png'
+import p9 from '../../assets/projects/p9.png'
 
 const Projects = () =>{
 	return(
@@ -29,6 +30,20 @@ const Projects = () =>{
 								</h2>
 								<p>
 									A full-stack working web application using Clarifai Web API for face detection in an image, with website designed using REACTjs, server using NODE with EXPRESS.js and PostgreSQL for database. The server, the database and the front-end are all deployed on Heroku.
+								</p>
+							</div>
+						</div>
+						
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p9} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://trimlink.herokuapp.com/' className='link underline white dim'>
+										URL Shortener
+									</a>
+								</h2>
+								<p>
+									Shorten those long URLs for convenience. A full-stack web-application made with React, Node + ExpresJS, PostgreSQL and deployed on heroku. It provides link trimming service just like bit.ly and goo.gl.
 								</p>
 							</div>
 						</div>
