@@ -9,6 +9,7 @@ import p6 from '../../assets/projects/p6.png'
 import p7 from '../../assets/projects/p7.png'
 import p8 from '../../assets/projects/p8.png'
 import p9 from '../../assets/projects/p9.png'
+import p10 from '../../assets/projects/p10.png'
 
 const Projects = () =>{
 	return(
@@ -20,6 +21,20 @@ const Projects = () =>{
 
 					<div className="mh2" id='projectsSection-cards'>
 						
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p10} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://www.infotsav.in' className='link underline white dim'>
+										Infotsav'19
+									</a>
+								</h2>
+								<p>
+									Website and dev-ops for Central India's largest technical fest, Infotsav, made using React, Node and SQL, hosted on AWS Lightsail. Apart from website, the server hosts various games and the mail server, all developed and maintained by the team.
+								</p>
+							</div>
+						</div>
+
 						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
 							<img  alt='Project' src ={p1} className='projectPic'/>
 							<div>

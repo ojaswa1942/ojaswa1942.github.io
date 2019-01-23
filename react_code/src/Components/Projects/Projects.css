@@ -4,13 +4,13 @@
 	transform: skewY(-7deg);
 	background: #9DE0AD;
 	-webkit-transform-origin: 50%  53%;	
-	filter: contrast(1.5);
+	/*filter: contrast(1.5);*/
 }
 
 #projectsSection-container {
 	transform: skewY(7deg);
 	-webkit-transform-origin: 50%  53%;	
-	filter: saturate(1.2);
+	/*filter: saturate(1.2);*/
 	font-size: 1.1rem;
 }
 #projectsSection-cards{
@@ -19,8 +19,8 @@
 	align-items: center;
 	flex-wrap: wrap;
 	color: white;
-	filter: contrast(0.67);
-	filter: saturate(0.83); 
+	/*filter: contrast(0.67);*/
+	/*filter: saturate(0.83); */
 }
 .projectHead{
 	cursor: default;
