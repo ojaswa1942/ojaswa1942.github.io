@@ -70,15 +70,18 @@ export const goToHome = () => {
 
 export const displayNavBarOnScroll = () => {
 	const navBar = document.getElementById("navBar");
+	const backToTop = document.getElementById("BackToTop");
 	const scrollFunction = () =>{
 		if(document.body.scrollTop>20 || document.documentElement.scrollTop>20){
 			navBar.style.top = "0";
 			navBar.classList.remove('fadeOutUp');
 			navBar.classList.add('fadeInDown');
+			backToTop.classList.remove('doNotDisplay');
 		} else{
 			// navBar.style.top = "-100px";
 			navBar.classList.remove('fadeInDown');
 			navBar.classList.add('fadeOutUp');
+			backToTop.classList.add('doNotDisplay');
 		}
 	}
 	window.addEventListener("scroll", scrollFunction);
