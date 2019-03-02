@@ -25,7 +25,7 @@ const Projects = () =>{
 							<img  alt='Project' src ={p10} className='projectPic'/>
 							<div>
 								<h2>
-									<a href='https://www.infotsav.in' className='link underline white dim'>
+									<a href='https://2019.infotsav.in' className='link underline white dim'>
 										Infotsav'19
 									</a>
 								</h2>
