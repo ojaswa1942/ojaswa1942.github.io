@@ -10,6 +10,9 @@ import p7 from '../../assets/projects/p7.png'
 import p8 from '../../assets/projects/p8.png'
 import p9 from '../../assets/projects/p9.png'
 import p10 from '../../assets/projects/p10.png'
+import p11 from '../../assets/projects/p11.png'
+import p12 from '../../assets/projects/p12.png'
+import p13 from '../../assets/projects/p13.png'
 
 const Projects = () =>{
 	return(
@@ -31,6 +34,48 @@ const Projects = () =>{
 								</h2>
 								<p>
 									Website and dev-ops for Central India's largest technical fest, Infotsav, made using React, Node and SQL, hosted on AWS Lightsail. Apart from website, the server hosts various games and the mail server, all developed and maintained by the team.
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p12} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://votenet.premsarswat.me' className='link underline white dim'>
+										VoteNet
+									</a>
+								</h2>
+								<p>
+									VoteNet is a secure full-stack system to facilitate remote voting. It is created using ReactJs, Node+Express, PostgreSQL, Flask, Face Recognition Machine Learning Model, GPG, IPFS and IPNS. VoteNet was created during a Hackathon (First Place).
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p11} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://hacknsut.premsarswat.me/' className='link underline white dim'>
+										HealthHub
+									</a>
+								</h2>
+								<p>
+									HealthHub is a doctor-patient application which allows encrypted storage and anytime access of health reports., using React, Node, PostgreSQL and IPFS. This application was created during a Hackathon named HackNSUT'19, Delhi (Finalists).
+								</p>
+							</div>
+						</div>
+
+						<div className='card bg-dark-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+							<img  alt='Project' src ={p13} className='projectPic'/>
+							<div>
+								<h2>
+									<a href='https://hn.ojaswa.me' className='link underline white dim'>
+										HackerNews-Search
+									</a>
+								</h2>
+								<p>
+									Recreated the original HnSearch (https://hn.algolia.com) site in ReactJs with new features, which is originally made in Angular. Algolia powered Hacker News API was used to retrieve filtered data from Hacker News. Feature additions: Register/Login, Sessions and History for each user.
 								</p>
 							</div>
 						</div>
