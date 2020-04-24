@@ -70,7 +70,7 @@ const Projects = () =>{
 							<img  alt='Project' src ={p13} className='projectPic'/>
 							<div>
 								<h2>
-									<a href='https://hn.ojaswa.me' className='link underline white dim'>
+									<a href='https://hn.ojaswa.com' className='link underline white dim'>
 										HackerNews-Search
 									</a>
 								</h2>
@@ -98,7 +98,7 @@ const Projects = () =>{
 							<img  alt='Project' src ={p9} className='projectPic'/>
 							<div>
 								<h2>
-									<a href='https://trimlink.herokuapp.com/' className='link underline white dim'>
+									<a href='https://url.ojaswa.com/' className='link underline white dim'>
 										URL Shortener
 									</a>
 								</h2>
